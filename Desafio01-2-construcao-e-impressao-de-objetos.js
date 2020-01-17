@@ -30,10 +30,10 @@ const empresa = {
     },
 }
 
-//console.log(`A empresa ${empresa.nome} está localizada em ${endereco.rua}, ${endereco.rua}`);
+console.log(`A empresa ${empresa.nome} está localizada em ${empresa.endereco.rua}, ${empresa.endereco.rua}`);
 
-function imprimirFrase (empresaQualquer) {
-    return (`A empresa ${empresaQualquer.nome} está localizada em ${empresaQualquer.endereco.rua}, ${empresaQualquer.endereco.numero}`); 
-}
+//function imprimirFrase (empresaQualquer) {
+//    return (`A empresa ${empresaQualquer.nome} está localizada em ${empresaQualquer.endereco.rua}, ${empresaQualquer.endereco.numero}`); 
+//}
 
-console.log(imprimirFrase(empresa));
+//console.log(imprimirFrase(empresa));
